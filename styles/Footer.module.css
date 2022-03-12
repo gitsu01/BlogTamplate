@@ -1,0 +1,7 @@
+@import 'Font.module.css';
+
+.footer{
+    min-height: 15rem;
+    width: 100%;
+    background: #222;
+}
