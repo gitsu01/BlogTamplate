@@ -6,6 +6,7 @@
     /* background: #0070f3; */
     padding: 1rem 0;
     border-bottom: 1px solid #0070f3;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .navigation{
     height: 100%;
@@ -14,12 +15,13 @@
     align-items: center;
     margin: auto;
     color: #f2f2f2;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
 }
 .title{
     font-size: 2rem;
-    color: #222;
+    color: #000;
+    text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .bardiv{
     display: flex;
