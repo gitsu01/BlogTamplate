@@ -1,5 +1,6 @@
  {
     "name": "JsonBlog",
+    "domain": "JsonBlog.com",
     "createDate": "12-03-2022",
     "author": {
         "name": "Subir Mondal",

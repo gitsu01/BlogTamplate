@@ -15,18 +15,24 @@
     align-items: center;
     margin: auto;
     color: #f2f2f2;
-    font-family: 'Comfortaa', cursive;
     font-weight: 700;
+}
+.tihead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .title{
     font-size: 2rem;
     color: #000;
     text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
 }
 .bardiv{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .bar{
     height: 4rem;

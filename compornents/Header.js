@@ -1,8 +1,10 @@
 import React from "react";
-import styles from "../styles/Header.module.css";
+import head from "../styles/Header.module.css";
 import Search from "./Search";
+import Button from "./Button";
 import p from "../project.json";
 import { RiMenuAddFill } from "react-icons/ri";
+import { BiSearch } from "react-icons/bi";
 import Link from "next/link";
 
 function Header() {
@@ -30,16 +32,23 @@ function Header() {
   ];
   return (
     <>
-      <header className={styles.header}>
-        <div className={styles.navigation}>
-          <Link href='/'>
-            <div className={styles.title}>{p.name}</div>
-          </Link>
-          <div className={styles.bardiv}>
+      <header className={head.header}>
+        <div className={head.navigation}>
+          <div className={head.tihead}>
+            <Button>
+              <RiMenuAddFill />
+            </Button>
+            <Link href="/">
+              <div className={head.title}>{p.domain}</div>
+            </Link>
+          </div>
+          <div className={head.bardiv}>
             <div>
               <Search>Serach Anythingh</Search>
             </div>
-            <RiMenuAddFill className={styles.bar} />
+            <Button>
+              <BiSearch />
+            </Button>
           </div>
         </div>
       </header>
