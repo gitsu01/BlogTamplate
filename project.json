@@ -6,5 +6,7 @@
         "name": "Subir Mondal",
         "job": "Student",
         "age": "18"
-    }
+    },
+    "icon": "/favicon.ico",
+    "desc": "JsonBlog is an blogsite is made in NextJs technology."
 }

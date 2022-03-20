@@ -1,0 +1,27 @@
+.section{
+    position: fixed;
+    bottom: .5rem;
+    width: max-content;
+    height: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3rem;
+    display: flex;
+    gap: .8rem;
+}
+.menuitem{
+    font-size: 2.5rem;
+    fill: #0070f3;
+    border: 1px solid #0070f3;
+    padding: .5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    backdrop-filter: blur(8px);
+    transition: ease-in-out 3ms all;
+    margin: 0;
+}
+.menuitem:hover{
+    fill: #fff;
+    background: #0070f3;
+}

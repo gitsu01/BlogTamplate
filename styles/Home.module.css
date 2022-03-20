@@ -1,2 +1,16 @@
 @import 'Font.module.css';
 
+.main{
+    margin: 1.5rem auto;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .main{
+        margin: 1.5rem;
+    }
+}

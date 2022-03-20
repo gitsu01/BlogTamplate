@@ -7,6 +7,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Poppins, sans-serif;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 
 main{
   min-height: calc(100vh - 20.35rem);
@@ -20,4 +23,18 @@ a {
 * {
   box-sizing: border-box;
   font-family: 'Comfortaa', sans-serif;
+}
+
+
+@media screen and (max-width:500px) {
+  main{
+      width: 100%;
+      margin: auto;
+  }
+}
+@media screen and (min-width:1500px) {
+  main{
+      width: 1400px;
+      margin: auto;
+  }
 }
